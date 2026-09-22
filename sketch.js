@@ -5,7 +5,7 @@ let font;
 async function setup() {                  //happens once when it first runs
     createCanvas(800, 600);
     car = new AutomaticCar();       // speed, gear, rpm
-    font = await loadFont('/assets/DS-DIGI.ttf');
+    font = await loadFont('/assets/ds-digi.ttf');
     textFont(font);
 }
 
